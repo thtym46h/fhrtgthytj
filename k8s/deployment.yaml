@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myu
+  name: gfth6
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: myu
+      app: gfth6
   template:
     metadata:
       labels:
-        app: myu
+        app: gfth6
     spec:
       containers:
-      - image: okteto.dev/myu:latest
-        name: myu
+      - image: okteto.dev/gfth6:latest
+        name: gfth6
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "99af137f-3a11-4df6-9216-c8a37100b991"
+          value: "ed82c074-5daf-44aa-a25c-d1d902a8d86d"
         - name: Vless_Path
-          value: "/fgh76u4wrgjyu"
+          value: "/sddrvgfhbgr"
         - name: Vmess_UUID
-          value: "99af137f-3a11-4df6-9216-c8a37100b991"
+          value: "ed82c074-5daf-44aa-a25c-d1d902a8d86d"
         - name: Vmess_Path
-          value: "/fdbjui75u56ehtd"
+          value: "/vfdhyhthu7"
         - name: Share_Path
           value: "/v2link"
